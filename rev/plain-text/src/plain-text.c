@@ -15,7 +15,7 @@ int checkFlag(char* guess) {
         && guess[11] == 'r'
         && guess[12] == '3'
         && guess[13] == '}'
-        && guess[14] == '\0') {
+        && guess[14] == '\n') {
             return 1;
     } else {
         return 0;
